@@ -34,3 +34,9 @@ html{
 .width-310{
     width:310px;
 }
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Adjust as needed */
+  }
+  
