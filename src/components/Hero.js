@@ -10,10 +10,10 @@ const Hero = () => {
     subtitle:'Developer'
   }
   return ( 
-        <section  className='flex flex-col md:flex-row px-5 py-32 bg-primary justify-center'>
-           <div className='md:w-1/2 flex flex-col'>
+        <section  className='flex flex-col md:flex-row items-center justify-center px-5 py-32 bg-primary'>
+           <div className='md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left '>
                 <h1 className=' text-white text-2xl font-hero-font'>
-                    <p className='text-2xl px-8'>Hello I`m</p>
+                    <p className='text-2xl px-9'>Hello I`m</p>
                     <p className='text-4xl px-6'>Muhilan</p>
                     <p className='text-2xl px-8'>{config.subtitle}</p> 
                 </h1>
@@ -24,7 +24,7 @@ const Hero = () => {
                     
                 </div>
            </div>
-           <img className=' md:w-1/5 ' src={hero} />
+           <img className=' md:w-1/4 ' src={hero} />
         </section>
     
   )
